@@ -28,13 +28,8 @@ void inserthead(ElementType data){
      head = lk;
 }
 
-void insertend(node *list){
-    node *tmp = head;
-    while(tmp->next != NULL){
-        tmp = tmp->next;
-    }
-
-    tmp->next = list;
+void insertend(){
+    
 }
 void insert(node *list , ElementType data){
     node *lk = (node*)malloc(sizeof(node));
