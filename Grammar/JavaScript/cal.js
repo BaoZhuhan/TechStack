@@ -1,4 +1,4 @@
-function calStanddeviation(){
+function calStanddeviation() {
     var inputVal = document.getElementById("input").value;
 
     var num = inputVal.split(' ').map(Number);
@@ -9,11 +9,11 @@ function calStanddeviation(){
 
     var up = 0;
 
-    for(var i = 0 ; i < num.length ; i++){
-        up += (num[i] - avg)*(num[i] - avg);     
+    for (var i = 0; i < num.length; i++) {
+        up += (num[i] - avg) * (num[i] - avg);
     }
 
-    var ans = up/(num.length - 1) ;
+    var ans = up / (num.length - 1);
 
     ans = Math.sqrt(ans);
 
