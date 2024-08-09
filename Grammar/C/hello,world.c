@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    int apple = 1;
-    
+    printf("Hello,world!\nHello,C&C++!");
     return 0;
 }
